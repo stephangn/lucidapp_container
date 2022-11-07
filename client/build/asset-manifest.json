@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42209e53.chunk.css",
+    "main.js": "/static/js/main.f2a7267b.chunk.js",
+    "main.js.map": "/static/js/main.f2a7267b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7820a7e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7820a7e.js.map",
+    "static/css/2.070ffd8c.chunk.css": "/static/css/2.070ffd8c.chunk.css",
+    "static/js/2.a7c74a75.chunk.js": "/static/js/2.a7c74a75.chunk.js",
+    "static/js/2.a7c74a75.chunk.js.map": "/static/js/2.a7c74a75.chunk.js.map",
+    "static/js/3.073d7fe6.chunk.js": "/static/js/3.073d7fe6.chunk.js",
+    "static/js/3.073d7fe6.chunk.js.map": "/static/js/3.073d7fe6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.070ffd8c.chunk.css.map": "/static/css/2.070ffd8c.chunk.css.map",
+    "static/css/main.42209e53.chunk.css.map": "/static/css/main.42209e53.chunk.css.map",
+    "static/js/2.a7c74a75.chunk.js.LICENSE.txt": "/static/js/2.a7c74a75.chunk.js.LICENSE.txt",
+    "static/media/LUCID.4fee292d.jpg": "/static/media/LUCID.4fee292d.jpg",
+    "static/media/Uni_Logo.f662a23b.png": "/static/media/Uni_Logo.f662a23b.png",
+    "static/media/inbound.365de793.png": "/static/media/inbound.365de793.png",
+    "static/media/outbound.3f435137.png": "/static/media/outbound.3f435137.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7820a7e.js",
+    "static/css/2.070ffd8c.chunk.css",
+    "static/js/2.a7c74a75.chunk.js",
+    "static/css/main.42209e53.chunk.css",
+    "static/js/main.f2a7267b.chunk.js"
+  ]
+}
