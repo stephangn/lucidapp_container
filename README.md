@@ -8,7 +8,7 @@ Anwendung zum Abwickeln des Zollimportprozesses und Zollanmeldung auf Basis von 
 - [ ] Import der Demo-Daten
 - [ ] Installieren und Einrichten von MetaMask
 
-# GIT Download unter Windows
+## GIT Download unter Windows
 
 Um die richtigen Line-Break Characters für das Linux System im DockerImage zu nutzen und so die Entrypoint Skripte ausführbar zu machen, muss der Clone-Befehl um eine Option erweitert werden:
 
