@@ -12,7 +12,7 @@ Anwendung zum Abwickeln des Zollimportprozesses und Zollanmeldung auf Basis von 
 
 Um die richtigen Line-Break Characters für das Linux System im DockerImage zu nutzen und so die Entrypoint Skripte ausführbar zu machen, muss der Clone-Befehl um eine Option erweitert werden:
 
-    git clone https://github.com/stephangn/lucidapp_container --config core.autocrlf=input
+    git clone https://github.com/stephangn/lucidapp_container.git --config core.autocrlf=input
 
 
 ## Starten der Container 
