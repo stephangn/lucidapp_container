@@ -8,6 +8,12 @@ Anwendung zum Abwickeln des Zollimportprozesses und Zollanmeldung auf Basis von 
 - [ ] Import der Demo-Daten
 - [ ] Installieren und Einrichten von MetaMask
 
+# GIT Download unter Windows
+
+Um die richtigen Line-Break Characters für das Linux System im DockerImage zu nutzen und so die Entrypoint Skripte ausführbar zu machen, muss der Clone-Befehl um eine Option erweitert werden:
+
+    git clone https://github.com/stephangn/lucidapp_container --config core.autocrlf=input
+
 
 ## Starten der Container 
 
@@ -65,17 +71,23 @@ Im sich neu geöffneten Tab werden Sie dann aufgefordert die Daten des Servers e
 
 ![Serverdaten](readme/image.png)
 
-Wichtig hierbei ist die korrekte Eingabe der RPC-URL und der Chain-ID. Diese werden im Docker-Compose-File festgelegt.
+Wichtig hierbei ist die korrekte Eingabe der RPC-URL und der Ketten-ID. Diese werden im Docker-Compose-File festgelegt.
+Bei z. B. Localhost (standardmäßig) - RPC-URL: http://localhost:8545, Ketten-ID: 1337
 
 ### 4. Account importieren
 
-Als nächstes müssen die für den Testbetrieb freigegebenen Accounts importiert werden. Die Private Keys befinden sich im Hauptverzeichnis unter keys.txt.
+Als nächstes müssen die für den Testbetrieb freigegebenen Accounts importiert werden. Die Private Keys befinden sich im Hauptverzeichnis in der Datei "accounts". Darüber hinaus sind weitere Public-Private-Key-Pairs in keys.txt
 Zum Importieren öffnen Sie MetaMask und klicken auf das runde Symbolbild oben rechts. Anschließend gehen Sie auf "Account importieren".
 
 ![Accounts](readme/account.png)
 
 Im darauffolgenden Dialogfenster können Sie den kopierten Private Key einfügen.
 
+### Problem-Behandlung
+
+Wird der Zustand der Blockchain zurückgesetzt (z. B. durch löschen von des Ordners "ganache_data") ist es notwendig alle Accounts einzeln in MetaMask zurückzusetzen, ansonsten werden Transaktionen nicht ausgeführt und Client kann nicht mit Node kommunizieren. 
+Hierfür:
+Klick auf Accountsymbol -> Einstellungen -> Erweitert -> Account zurücksetzen
 
 ## Anwendung
 
