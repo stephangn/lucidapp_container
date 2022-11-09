@@ -83,11 +83,15 @@ Zum Importieren öffnen Sie MetaMask und klicken auf das runde Symbolbild oben r
 
 Im darauffolgenden Dialogfenster können Sie den kopierten Private Key einfügen.
 
-### Problem-Behandlung
+### Problem-Behandlung Blockchain
 
 Wird der Zustand der Blockchain zurückgesetzt (z. B. durch löschen von des Ordners "ganache_data") ist es notwendig alle Accounts einzeln in MetaMask zurückzusetzen, ansonsten werden Transaktionen nicht ausgeführt und Client kann nicht mit Node kommunizieren. 
 Hierfür:
 Klick auf Accountsymbol -> Einstellungen -> Erweitert -> Account zurücksetzen
+
+### Problembehandlung Login/Anwendungsstart
+
+Sollte sich der Login Bildschirm des Prototypen nicht öffnen, hilft es häufig den lokalen Speicher der Seite zu löschen. 
 
 ## Anwendung
 
